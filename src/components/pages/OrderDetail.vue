@@ -98,6 +98,7 @@ export default {
       });
     },
     submitForm(){
+      var a=1000
       this.axios.put(cons.apis + '/orders/'+this.edit_id+'/status/', {
               "status":this.statusForm.status
             }, {
